@@ -1,0 +1,10 @@
+{
+  "gitbook": "3.0.0-pre.15",
+  "plugins": [
+    "include-codeblock",
+    "advanced-emoji",
+    "prism",
+    "-highlight",
+    "copy-code-button"
+  ]
+}

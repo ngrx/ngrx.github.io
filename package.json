@@ -1,0 +1,27 @@
+{
+  "name": "ngrx-gitbook",
+  "version": "0.0.1",
+  "description": "Git Book for @ngrx",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "gb": "gitbook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngrx/ngrx.github.io.git"
+  },
+  "keywords": [
+    "Angular 2",
+    "ngrx",
+    "rxjs",
+    "redux"
+  ],
+  "author": "Brian Troncone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngrx/ngrx.github.io/issues"
+  },
+  "homepage": "https://github.com/ngrx/ngrx.github.io#readme"
+}
