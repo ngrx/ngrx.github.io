@@ -15,8 +15,7 @@
   "keywords": [
     "Angular 2",
     "ngrx",
-    "rxjs",
-    "redux"
+    "rxjs"
   ],
   "author": "Brian Troncone",
   "license": "MIT",

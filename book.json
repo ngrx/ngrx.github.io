@@ -5,6 +5,18 @@
     "advanced-emoji",
     "prism",
     "-highlight",
-    "copy-code-button"
-  ]
+    "copy-code-button",
+    "edit-link"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/ngrx/ngrx.github.io/tree/master",
+      "label": "Edit This Page"
+    },
+    "fontSettings": {
+            "theme": "night",
+            "family": "sans",
+            "size": 2
+        }
+  }
 }

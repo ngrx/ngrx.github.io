@@ -1,1 +1,1 @@
-# @ngrx
+# <a href='https://github.com/ngrx'><img src='https://avatars2.githubusercontent.com/u/16272733?v=3&s=200' height='60' style="position: relative; top: 17px;"></a> @ngrx - Reactive Extensions for Angular 2
