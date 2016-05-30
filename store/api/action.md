@@ -1,4 +1,5 @@
-#` Action { type: string; payload?: any;  }`
+# Action
+### signature: `{ type: string; payload?: any;  }`
 Actions are the only method of communication between your application and store. In __@ngrx/store__, actions require a `type` and an optional `payload`, or information carried by the action. Your actions should create a clear history of user interaction within your application.
 
 ####Example - Dispatching Basic Actions

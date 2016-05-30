@@ -1,4 +1,5 @@
-# `provideStore(reducer: any, initialState?: any)`
+# provideStore
+### signature: `provideStore(reducer: any, initialState?: any)`
 
 #### Arguments
 

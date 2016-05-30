@@ -1,4 +1,5 @@
-# `combineReducers(reducers: any): ActionReducer<any>`
+# combineReducers
+### signature: `combineReducers(reducers: any): ActionReducer<any>`
 
 #### Arguments
 
