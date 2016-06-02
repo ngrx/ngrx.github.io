@@ -1,0 +1,2 @@
+# all
+### signature: `all() : boolean`

@@ -2,8 +2,10 @@
 
 Complete API reference for @ngrx/store.
 
-### Types
+### Services
 * [Store](store.md)
+
+### Interfaces
 * [ActionReducer](action_reducer.md)
 * [Action](action.md)
 

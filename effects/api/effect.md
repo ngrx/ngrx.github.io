@@ -1,0 +1,2 @@
+# Effect
+### signature: `Effect(): PropertyDecorator`
