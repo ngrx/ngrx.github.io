@@ -43,4 +43,6 @@
     * [API Reference](/devtools/api/README.md)
 * [Core](/core/README.md)
     * [API Reference](/core/api/README.md)
+        * [select](/core/api/select.md)
+        * [compose](/core/api/compose.md)
 

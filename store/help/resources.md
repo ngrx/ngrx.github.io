@@ -1,6 +1,9 @@
 #Resources
 @ngrx/store resources and commonly used tools.
 
+### Example Application
+* [Official ngrx example application](https://github.com/ngrx/example-app)
+
 ### Articles
 * [Comprehensive Introduction to @ngrx/store](https://gist.github.com/btroncone/a6e4347326749f938510)
 
@@ -11,6 +14,7 @@
 
 ### Repositories and Code Samples
 * [ngrx-examples](https://github.com/btroncone/ngrx-examples)
+* [ngrx-example](https://github.com/fxck/ngrx-example)
 
 ### Utilities
 * [ngrx-store-localstorage - Sync local storage with ngrx state slices](https://github.com/btroncone/ngrx-store-localstorage)
