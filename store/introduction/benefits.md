@@ -8,6 +8,6 @@ Since state is centralized at the top of your application, data updates can flow
 All state updates are handled in reducers, which are pure functions. Pure functions are extremely simple to test, as it is simply input in, assert against output. This enables the testing of the most crucial aspects of your application without mocks, spies, or other tricks that can make testing both complex and error prone. 
 ##### Tooling and Ecosystem
 A centralized, immutable state also enables powerful tooling. One such example is [ngrx developer tools](https://github.com/ngrx/devtools), which provides a history of actions and state changes, allowing for <sup>1</sup> *time travel* during development. 
-The patterns provided by Store also allow for a rich ecosystem of easy to implement middleware. Because store provides an entry point both before and after dispatched actions hit application reducers, problems such as syncing slices of state to local storage, advanced logging, and implementing sagas are easily solved with a quick package include and a few lines of code. This ecosystem will only grow over the coming months. 
+The patterns provided by Store also allow for a rich ecosystem of easy to implement utilities. Because all actions flow through a common reducer, problems such as syncing slices of state to local storage, advanced logging, and undo/redo are easily solved with a few lines of code. This ecosystem will only grow over time. 
 
 <sup>1 Manipulating the history of dispatched actions and state changes to emulate a point in time of application interaction.</sup>

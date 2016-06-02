@@ -2,11 +2,11 @@
 
 The store holds the entire state tree for your application. There will be one store instance per application.  
 
-## Store Methods
+## Methods
 
-- [select<T, R>(pathOrMapFn: any, ...paths: string[]): Observable<R>)](#select)
-- [dispatch(action : Action)](#dispatch)
-- [replaceReducer(reducer: ActionReducer<any>)](#replacereducer)
+- [`select<T, R>(pathOrMapFn: any, ...paths: string[]): Observable<R>`](#select)
+- [`dispatch(action : Action)`](#dispatch)
+- [`replaceReducer(reducer: ActionReducer<any>)`](#replacereducer)
 
 
 ### <a id='select'></a>[`select<T, R>(pathOrMapFn: any, ...paths: string[]): Observable<R>`](#select)

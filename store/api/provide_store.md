@@ -17,7 +17,6 @@ or when using store in universal applications.
 import { bootstrap } from '@angular/platform-browser-dynamic';
 import { provideStore } from '@ngrx/store';
 import { App } from './myapp';
-
 import { counterReducer } from './counter';
 
 bootstrap(App, [
