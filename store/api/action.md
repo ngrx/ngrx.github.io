@@ -18,3 +18,5 @@ public action$: Subject<Action> = new Subject<Action>();
 this.actions$.subscribe(store)
 ```
 
+> :file_folder: [https://github.com/ngrx/store/blob/master/src/dispatcher.ts](https://github.com/ngrx/store/blob/master/src/dispatcher.ts)
+

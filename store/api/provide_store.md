@@ -23,3 +23,5 @@ bootstrap(App, [
 	provideStore({ counter: counterReducer })
 ]);
 ```
+
+> :file_folder: [https://github.com/ngrx/store/blob/master/src/ng2.ts](https://github.com/ngrx/store/blob/master/src/ng2.ts)

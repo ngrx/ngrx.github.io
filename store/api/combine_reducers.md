@@ -9,7 +9,6 @@
 ([*`ActionReducer`*](action_reducer.md)): ActionReducer.
 
 #### Example
-> :file_folder: [`ngrx/example-app/src/reducers/index.ts`](https://github.com/ngrx/example-app/blob/master/src/reducers/index.ts)
 
 ```ts
 import { combineReducers } from '@ngrx/store';
@@ -21,3 +20,5 @@ export const reducer = combineReducers({
   collection: collectionReducer
 })
 ```
+
+> :file_folder: [https://github.com/ngrx/store/blob/master/src/utils.ts](https://github.com/ngrx/store/blob/master/src/utils.ts)

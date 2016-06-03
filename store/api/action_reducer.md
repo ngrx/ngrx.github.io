@@ -1,5 +1,8 @@
 # ActionReducer
 ### signature: `ActionReducer<T>(state: T, action: Action): T`
+
+:file_folder: [source](https://github.com/ngrx/example-app/blob/master/src/reducers/index.ts)
+
 A reducer function outputting appropriate slice of state, given the previous state and current action. 
 
 #### Example - Basic Reducer
@@ -56,3 +59,5 @@ export const todos : ActionReducer<Todo[]> = (state : Todo[] = [], action: Actio
   }
 };
 ```
+
+> :file_folder: [https://github.com/ngrx/store/blob/master/src/reducer.ts](https://github.com/ngrx/store/blob/master/src/reducer.ts)

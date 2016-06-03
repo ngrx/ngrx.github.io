@@ -111,3 +111,5 @@ Replaces specified reducer.
 #### Returns
 
 *(void)*
+
+> :file_folder: [https://github.com/ngrx/store/blob/master/src/store.ts](https://github.com/ngrx/store/blob/master/src/store.ts)
