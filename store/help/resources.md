@@ -1,7 +1,7 @@
 #Resources
 @ngrx/store resources and commonly used tools.
 
-### Example Application
+### Example Applications
 * [Official ngrx example application](https://github.com/ngrx/example-app)
 
 * [Staffer](https://github.com/sapientglobalmarkets/staffer/tree/master/staffer-ng2-ngrxstore)
