@@ -6,13 +6,15 @@
     "prism",
     "-highlight",
     "copy-code-button",
-    "edit-link"
+    "edit-link",
+    "expandable-chapters"
   ],
   "pluginsConfig": {
     "edit-link": {
       "base": "https://github.com/ngrx/ngrx.github.io/tree/master",
       "label": "Edit This Page"
     },
+    "expandable-chapters":{},
     "fontSettings": {
             "theme": "night",
             "family": "sans",
