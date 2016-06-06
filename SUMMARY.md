@@ -46,6 +46,8 @@
         * [Shopping Cart](/store/example/shopping_cart.md)
         * [Google Books](/store/example/google_books.md)
     * [Help](/store/help/README.md)
+        * [Getting Started With NPM](/store/help/getting_started_npm.md)
+        * [Getting Started With SystemJS](/store/help/getting_started_system_js.md)
         * [Frequently Asked Questions](/store/help/frequently_asked_questions.md)
         * [Resources](/store/help/resources.md) 
 * [Effects](/effects/README.md)
