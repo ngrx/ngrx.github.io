@@ -2,6 +2,9 @@
 ### signature: `ActionReducer<T>(state: T, action: Action): T`
 
 A reducer function outputting appropriate slice of state, given the previous state and current action. 
+Reducers accept the previous state slice and an action containing a type and optional payload.
+
+> :bulb: More: Reducer Recipes
 
 #### Example - Basic Reducer
 ```ts
@@ -11,7 +14,6 @@ export const INCREMENT = 'INCREMENT';
 export const DECREMENT = 'DECREMENT';
 
 export const counter: ActionReducer<number> = (state : number = 0, action : Action) => {
-
 	switch (action.type) {
 		case INCREMENT:
 			return state + 1;

@@ -6,24 +6,34 @@
 #### Store
 [Documentation](/store/README.md) | [Repository](https://www.github.com/ngrx/store)
 
-Brief description...
+RxJS powered state management for Angular2 apps, inspired by Redux
 
 #### Effects
 [Documenation](/effects/README.md) | [Repository](https://www.github.com/ngrx/store)
 
-Brief description...
+Side effect model for @ngrx/store
 
 #### DB
 [Documentation](/db/README.md) | [Repository](https://www.github.com/ngrx/db)
 
-Brief description...
+RxJS powered IndexedDB for Angular2 applications.
+
+#### Notify
+[Documentation](/notify/README.md) | [Repository](https://www.github.com/ngrx/notify)
+
+RxJS powered web notifications for Angular 2
 
 #### DevTools
 [Documentation](/devtools/README.md) | [Repository](https://www.github.com/ngrx/devtools)
 
-Brief description...
+Developer Tools for @ngrx
+
+#### Router Store
+[Documentation](/routerstore/README.md) | [Repository](https://www.github.com/ngrx/router-store)
+
+Bindings to connect @ngrx/router to @ngrx/store
 
 #### Core
 [Documentation](/core/README.md) | [Repository](https://www.github.com/ngrx/core)
 
-Brief description...
+Core functionality for the @ngrx platform

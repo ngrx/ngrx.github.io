@@ -1,6 +1,8 @@
 # provideStore
 ### signature: `provideStore(reducer: any, initialState?: any)`
 
+`provideStore` is to be invoked during bootstrap, configuring and returning an array of providers for Store related services.
+
 #### Arguments
 
 1. `reducer : ActionReducer | [key:string]: ActionReducer` - Reducer or map of reducer functions. If multiple reducers are supplied reducers are 
@@ -10,7 +12,7 @@ automatically combined to create root reducer.
 or when using store in universal applications.
 
 #### Returns
-([*`Store`*](store.md)): Application store.
+([*`Provider[]`*](store.md)): Provider[] registering Store and related services
 
 #### Example
 ```ts
