@@ -5,6 +5,13 @@ Commonly asked questions and issues regarding @ngrx/store setup and use.
 ### How does @ngrx/store compare to Redux?
 Check out this [conversation](https://github.com/ngrx/store/issues/16) for a full rundown on the inspiration for store and how it compares to Redux.
 
+### After I dispatch an action my view does not update, what's up?
+The most common culprit for your view not updating after a dispatched action is an impure reducer. When using the `select` function
+the `distinctUntilChanged` operator is applied after mapping to the approriate slice of state. If the reference for the selected
+slice of state has not changed, ie. mutating previous state instead of returning a new reference, your view will not receive the update from store.
+
+> :bulb: [More on `distinctUntilChanged`](https://gist.github.com/btroncone/d6cf141d6f2c00dc6b35#distinctuntilchanged)
+
 ### How do I handle side-effects, such as API calls, within an @ngrx/store application?
 [@ngrx/effects](https://github.com/ngrx/effects) is an @ngrx library dedicated to handling and easily testing side-effects within your store applications.
 
