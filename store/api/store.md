@@ -11,7 +11,8 @@ The store holds the entire state tree for your application. There will be one st
 
 ### <a id='select'></a>[`select<T, R>(pathOrMapFn: any, ...paths: string[]): Observable<R>`](#select)
 
-Select slice of state based on supplied value. 
+Select slice of state based on supplied value. If a function or single string is supplied, `select` will call `map`
+and `distinctUntilChanged`. If multiple strings are supplied `select` will call `pluck` and `distinctUntilChanged`, each returning the correct state slice.
 
 #### Arguments
 
