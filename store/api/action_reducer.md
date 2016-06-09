@@ -4,7 +4,7 @@
 A reducer function outputting appropriate slice of state, given the previous state and current action. 
 Reducers accept the previous state slice and an action containing a type and optional payload.
 
-> :bulb: More: Reducer Recipes
+> :bulb: More: [Reducer recipes and best practices](../recipes/reducers/README.md)
 
 #### Example - Basic Reducer
 ```ts

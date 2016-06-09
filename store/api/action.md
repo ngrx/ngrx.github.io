@@ -2,6 +2,8 @@
 ### signature: `{ type: string; payload?: any;  }`
 Actions are the only method of communication between your application and store. In __@ngrx/store__, actions require a `type` and an optional `payload`, or information carried by the action. Your actions should create a clear history of user interaction within your application.
 
+> :bulb: More: [Action recipes and best practices](../recipes/actions/README.md)
+
 ####Example - Dispatching Basic Actions
 ```ts
 //dispatching an action without a payload
