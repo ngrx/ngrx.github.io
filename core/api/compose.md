@@ -1,8 +1,8 @@
 # compose
 ### signature: `compose: (...fns: any[]): (input: any) => any`
 
-The compose function is one of our most handy tools. In basic terms, you give it any number of functions and it returns a function.
-This new function takes a value and chains it through every composed function, returning the output.
+Compose accepts any number of functions and returns a function.
+This new function takes a value and chains it through every composed function, right to left, returning the output.
 
 #### Example - Basic Compose
 ```ts
