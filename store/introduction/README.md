@@ -1,4 +1,4 @@
-# Introduction# @ngrx/store Introduction
+# Introduction
 
 Introduction to @ngrx/store core concepts.
 
