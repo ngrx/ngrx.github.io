@@ -1,12 +1,12 @@
 # Core Concepts
-Before we dive into the nuts and bolts of what makes store work, let's first take a high-level look at the core concepts. Each application built around store will contain three main pieces, __reducers__, __actions__, and a __single application store__. Let’s take a moment to explore each of these concepts.
+Before we dive deeper into @ngrx/store, let's first take a high-level look at the core concepts. Each application built around store will contain three main pieces, __reducers__, __actions__, and a __single application store__. Let’s take a moment to explore each of these concepts.
 
 ##### Store
 Like a traditional database represents the point of record for an application, your __store__ can be thought of as a client side _‘single source of truth’_, or database. By adhering to the <sup>1</sup> *store contract* when designing your application, a snapshot of store at any point will supply a complete representation of relevant application state. This becomes extremely powerful when it comes to reasoning about user interaction, debugging, and in the context of Angular 2, performance.
 
 <sup>1 Single, immutable state tree updated only through explicitly defined and dispatched actions</sup>
 ###### Centralized, Immutable State
-![store data-flow](http://imgur.com/g5AvQWq.png)
+![store data-flow](http://imgur.com/zLtnV7p.png)
 
 ##### Reducers
 The second integral part of a store application is __reducers__. A <sup>2</sup> reducer is a <sup>3</sup> pure function, accepting two arguments, the previous state and an action with a type and optional data (payload) associated with the event. Using the previous analogy, if store is to be thought of as your client side database, reducers can be considered the tables in said database. Reducers represent sections, or slices of state within your application and should be structured and composed accordingly.

@@ -132,4 +132,4 @@ export class PersonInput {
 ```
 
 ###### <sup>1</sup> Smart (Container) and Dumb Components
-![container components](http://imgur.com/6DKkS5x.png)
+![container components](http://imgur.com/LbhNOFX.png)

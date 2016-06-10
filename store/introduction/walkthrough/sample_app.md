@@ -6,4 +6,4 @@ There are two links provided above each section, *Work Along* and *Completed Les
 
 Without further ado, let's get started!
 ###### <sup>1</sup> Party Planner Application Layout
-![party-planner layout](http://imgur.com/Cp59hVm.png)
+![party-planner layout](http://imgur.com/GZALLyu.png)
