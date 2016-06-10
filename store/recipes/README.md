@@ -16,7 +16,4 @@ Common @ngrx/store recipes and best practices explained.
 
 ### Actions
 * [Action Services](actions/action_services.md)
-
-### Events
-
-*Recipes for handling view events in ngrx/store*
+* [Actions From View Events](actions/view_events.md)
