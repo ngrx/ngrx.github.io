@@ -60,3 +60,5 @@ export const people = (state = [], action) => {
   }
 }
 ```
+
+**Next: [Configuring Store Actions](store_actions.md)**

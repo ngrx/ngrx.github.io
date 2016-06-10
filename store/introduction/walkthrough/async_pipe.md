@@ -67,3 +67,5 @@ export class App {
     //ngOnDestroy to unsubscribe is no longer necessary
 }
 ```
+
+**Next: [Taking Advantage of ChangeDetectionStrategy.OnPush](on_push.md)**

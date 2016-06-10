@@ -46,3 +46,5 @@ export class PersonList {
     @Output() toggleAttending = new EventEmitter();
 }
 ```
+
+**Next: [Expanding State](expanding_state.md)**

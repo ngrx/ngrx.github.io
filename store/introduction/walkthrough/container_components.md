@@ -133,3 +133,5 @@ export class PersonInput {
 
 ###### <sup>1</sup> Smart (Container) and Dumb Components
 ![container components](http://imgur.com/LbhNOFX.png)
+
+**Next: [Utilizing The Async Pipe](async_pipe.md)**

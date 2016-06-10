@@ -67,3 +67,5 @@ export class FilterSelect {
     @Output() updateFilter : EventEmitter<string> = new EventEmitter<string>();
 }
 ```
+
+**Next: [Projecting State](projecting_state.md)**

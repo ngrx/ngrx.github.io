@@ -79,3 +79,5 @@ interface Selector<T,V> {
   (state: Observable<T>): Observable<V>
 }
 ```
+
+**Next: [Implementing a Meta-Reducer](meta_reducers.md)**

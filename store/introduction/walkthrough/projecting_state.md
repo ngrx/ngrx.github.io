@@ -142,3 +142,5 @@ export class App {
     //...rest of component
 }
 ```
+
+**Next: [Extracting Selectors](extracting_selectors.md)**

@@ -15,3 +15,5 @@ export const ADD_GUEST = 'ADD_GUEST';
 export const REMOVE_GUEST = 'REMOVE_GUEST';
 export const TOGGLE_ATTENDING = 'TOGGLE_ATTENDING';
 ```
+
+**Next: [Utilizing Container Components](container_components.md)**
