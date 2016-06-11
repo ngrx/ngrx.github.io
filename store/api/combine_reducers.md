@@ -4,6 +4,8 @@
 Accepts an object map of reducer functions, returning a meta-reducer. The parent reducer will invoke each child reducer 
 with the previous slice of state and action each time an action is dispatched.
 
+> :bulb: More: [Reducer Composition](../recipes/reducers/reducer_composition.md)
+
 #### Arguments
 
 1. `reducers : any` - Object map of reducer functions. 

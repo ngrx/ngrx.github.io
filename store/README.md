@@ -2,7 +2,8 @@
 # @ngrx/store
 
 [![Join the chat at https://gitter.im/ngrx/store](https://badges.gitter.im/ngrx/store.svg)](https://gitter.im/ngrx/store?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[ ![Codeship Status for ngrx/store](https://img.shields.io/codeship/0c4f5b50-8372-0133-b304-425351b234ba/master.svg)](https://codeship.com/projects/121789)
+[![CircleCI Status for ngrx/store](https://circleci.com/gh/ngrx/store.svg?style=shield&circle-token=aea1fc73de3419cd926fc95e627e036113646fd8
+)](https://circleci.com/gh/ngrx/store)
 [![npm version](https://badge.fury.io/js/%40ngrx%2Fstore.svg)](https://badge.fury.io/js/%40ngrx%2Fstore)
 
 RxJS powered state management inspired by Redux for Angular 2 apps
@@ -10,6 +11,10 @@ RxJS powered state management inspired by Redux for Angular 2 apps
 ### Demo
 
 http://plnkr.co/edit/Hb4pJP3jGtOp6b7JubzS?p=preview
+
+### Example Application
+
+https://github.com/ngrx/example-app
 
 ### Introduction
 - [Comprehensive Introduction to @ngrx/store](https://gist.github.com/btroncone/a6e4347326749f938510)
@@ -25,6 +30,31 @@ npm install @angular/core @ngrx/core --save
 Install @ngrx/store from npm:
 ```bash
 npm install @ngrx/store --save
+```
+
+Set up with Angular-CLI and SystemJS.
+Modify system-config.ts:
+```ts
+    /** Map relative paths to URLs. */
+    const map: any = {
+        '@ngrx': 'vendor/@ngrx'
+    };
+    
+    /** User packages configuration. */
+    const packages: any = {
+        '@ngrx/core': {
+            main: 'index.js',
+            format: 'cjs'
+        },
+        '@ngrx/store': {
+            main: 'index.js',
+            format: 'cjs'
+        }
+    };
+```
+Modify angular-cli-build.js by adding this line to vendorNpmFiles:
+```js
+    '@ngrx/**/*.+(js|js.map)'
 ```
 
 ### Usage
