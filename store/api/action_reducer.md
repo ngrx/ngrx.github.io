@@ -1,5 +1,5 @@
 # ActionReducer
-### signature: `ActionReducer<T>(state: T, action: Action): T`
+#### signature: `ActionReducer<T>(state: T, action: Action): T`
 
 A reducer function outputting appropriate slice of state, given the previous state and current action. 
 Reducers accept the previous state slice and an action containing a type and optional payload.

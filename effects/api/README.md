@@ -5,11 +5,13 @@ Complete API reference for @ngrx/effects.
 ### Services
 * [StateUpdates](state_updates.md)
 
-### Interfaces
+### Types
 * [StateUpdate](state_update.md)
 
-### Top-Level Exports
+### Decorators
 * [`Effect(): PropertyDecorator`](effect.md)
+
+### Functions
 * [`mergeEffects(...instances: any[]): Observable<any>`](merge_effects.md)
 * [`runEffects(...effects: any[])`](run_effects.md)
 * [`toPayload(update: StateUpdate<any>): any`](to_payload.md)

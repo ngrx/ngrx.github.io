@@ -5,11 +5,11 @@ Complete API reference for @ngrx/store.
 ### Services
 * [Store](store.md)
 
-### Interfaces
+### Types
 * [ActionReducer](action_reducer.md)
 * [Action](action.md)
 
-### Top-Level Exports
+### Functions
 
 * [`provideStore(reducer: any, initialState?: any)`](provide_store.md)
 * [`combineReducers(reducers: any): ActionReducer<any>`](combine_reducers.md)
