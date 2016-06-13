@@ -1,5 +1,8 @@
 # StateUpdates
 
+The `StateUpdates` observable service emits a [`StateUpdate`](state_update.md) on each update. 
+Note that even if there are no changes in your state, every action will cause state to update.
+
 ## Methods
 
 - [`whenAction(...actionTypes: string[]): Observable<StateUpdate<S>>): Observable<StateUpdate<S>>`](#whenaction)
