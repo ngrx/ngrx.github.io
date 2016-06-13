@@ -2,7 +2,7 @@
 ### signature: `runEffects(...effects: any[])`
 
 Accepts an array of services with registered [`Effects`](effect.md). `runEffects` configures all providers for @ngrx/effects. 
-Observables decorated as an @Effect() within the supplied services will ultimately be merged, with emitted actions being dispatched into your application store.
+Observables decorated as an `@Effect()` within the supplied services will ultimately be merged, with emitted actions being dispatched into your application store.
 
 #### Arguments
 

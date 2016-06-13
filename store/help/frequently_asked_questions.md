@@ -12,6 +12,9 @@ slice of state has not changed, ie. mutating previous state instead of returning
 
 > :bulb: [More on `distinctUntilChanged`](https://gist.github.com/btroncone/d6cf141d6f2c00dc6b35#distinctuntilchanged)
 
+### Why am I getting an error when trying to use an RxJS operator?
+It is likely you have not yet imported the correct operator for use in your application. An example operator import is: `import 'rxjs/add/operator/map'`;
+
 ### How do I handle side-effects, such as API calls, within an @ngrx/store application?
 [@ngrx/effects](https://github.com/ngrx/effects) is an @ngrx library dedicated to handling and easily testing side-effects within your store applications.
 

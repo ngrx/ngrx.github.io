@@ -14,7 +14,6 @@ Complete API reference for @ngrx/effects.
 ### Utility
 * [`runEffects(...effects: any[])`](run_effects.md)
 * [`toPayload(update: StateUpdate<any>): any`](to_payload.md)
-* [`all(): boolean`](all.md)
 
 ### StateUpdates API
 * [StateUpdates](state_updates.md)
