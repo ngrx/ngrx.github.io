@@ -1,6 +1,16 @@
 # toPayload
 ### signature: `toPayload(update: StateUpdate<any>): any`
 
+Helper function which accepts a `StateUpdate` object, returning just the action payload. This is useful in situations
+you are only concerned with the dispatched action payload, not the current state.
+
+#### Arguments
+
+1. `update : StateUpdate<any>` - State update from store 
+
+#### Returns
+*`any`* - Payload for last dispatched action
+
 #### Example
 ```ts
 @Effect() search$ = this.updates$

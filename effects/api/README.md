@@ -11,8 +11,7 @@ Complete API reference for @ngrx/effects.
 ### Decorators
 * [`Effect(): PropertyDecorator`](effect.md)
 
-### Functions
-* [`mergeEffects(...instances: any[]): Observable<any>`](merge_effects.md)
+### Utility
 * [`runEffects(...effects: any[])`](run_effects.md)
 * [`toPayload(update: StateUpdate<any>): any`](to_payload.md)
 * [`all(): boolean`](all.md)

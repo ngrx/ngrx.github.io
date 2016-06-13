@@ -1,6 +1,10 @@
 # Effect
 ### signature: `Effect(): PropertyDecorator`
 
+Decorates a class property which is an `Observable<Action>`. When a service with registered effects is 
+provided to the `[runEffects](run_effects.md)` function on application bootstrap, each decorated observable is merged,
+with the store subscribed to emitted values.
+
 #### Example - Authentication Effect
 ```ts
 @Injectable()

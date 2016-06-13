@@ -9,7 +9,7 @@ Complete API reference for @ngrx/store.
 * [ActionReducer](action_reducer.md)
 * [Action](action.md)
 
-### Functions
+### Exports
 
 * [`provideStore(reducer: any, initialState?: any)`](provide_store.md)
 * [`combineReducers(reducers: any): ActionReducer<any>`](combine_reducers.md)
