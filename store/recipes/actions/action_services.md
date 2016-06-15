@@ -1,4 +1,4 @@
-# Action Services
+# Action Creator Services
 
  Instead of passing around action string constants and manually recreating
  action objects at the point of dispatch, we create services encapsulating

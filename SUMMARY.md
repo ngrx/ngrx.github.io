@@ -38,7 +38,7 @@
             * [Joins](/store/recipes/selectors/joins.md)
             * [Testing Selectors](/store/recipes/selectors/testing.md)
         * [Actions](/store/recipes/actions/README.md)
-            * [Action Services](/store/recipes/actions/action_services.md)
+            * [Action Creator Services](/store/recipes/actions/action_services.md)
             * [Actions From View Events](/store/recipes/actions/view_events.md)
     * [Examples](/store/example/README.md)
         * [Counter](/store/example/counter.md)
