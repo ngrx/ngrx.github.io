@@ -13,6 +13,7 @@ Complete API reference for @ngrx/effects.
 
 ### Utility
 * [`runEffects(...effects: any[])`](run_effects.md)
+* [`mergeEffects(...instances: any[])`](merge_effects.md)
 * [`toPayload(update: StateUpdate<any>): any`](to_payload.md)
 
 ### StateUpdates API

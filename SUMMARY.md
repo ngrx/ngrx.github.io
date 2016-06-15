@@ -58,6 +58,7 @@
         * [StateUpdate](/effects/api/state_update.md)
         * [Effect](/effects/api/effect.md)
         * [runEffects](/effects/api/run_effects.md)
+        * [mergeEffects](/effects/api/merge_effects.md)
         * [toPayload](/effects/api/to_payload.md)
     * [Recipes](/effects/recipes/README.md)
     * [Help](/effects/help/README.md)
