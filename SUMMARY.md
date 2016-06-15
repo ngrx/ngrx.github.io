@@ -4,7 +4,6 @@
 
 * [Store](/store/README.md)
     * [Introduction](/store/introduction/README.md)
-        * [Overview](/store/introduction/overview.md)
         * [Core Concepts](/store/introduction/core_concepts.md)       
         * [Approach](/store/introduction/approach.md)
         * [Benefits](/store/introduction/benefits.md)
