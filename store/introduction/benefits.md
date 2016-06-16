@@ -1,5 +1,5 @@
 # Benefits of Store
-Throughout the [overview](overview.md) we touched briefly on the advantages of utilizing Store over a typical, Angular 1 style approach but let's take a moment to recap. Why take the time to invest in this particular library, architecture pattern, and learning curve? The primary advantage to a Store-based application are __centralized state__, __performance__, __testability__, and __tooling__.
+Throughout the introduction we touched briefly on the advantages of utilizing Store over a typical, Angular 1 style approach but let's take a moment to recap. Why take the time to invest in this particular library, architecture pattern, and learning curve? The primary advantage to a Store-based application are __centralized state__, __performance__, __testability__, and __tooling__.
 ##### Centralized, Immutable State
 All relevant application state exists in one location. This makes it easier to track down problems, as a snapshot of state at the time of an error can provide important insight and make it easy to recreate issues. This also makes notoriously hard problems such as undo/redo trivial in the context of a Store application and enables powerful tooling.
 ##### Performance
