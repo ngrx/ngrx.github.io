@@ -68,6 +68,7 @@
 * [Notify](/notify/README.md)
 * [DevTools](/devtools/README.md)
     * [API Reference](/devtools/api/README.md)
+* [Log Monitor](/logmonitor/README.md)
 * [Router Store](/routerstore/README.md)
 * [Core](/core/README.md)
     * [API Reference](/core/api/README.md)
