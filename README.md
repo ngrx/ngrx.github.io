@@ -24,9 +24,14 @@ RxJS powered IndexedDB for Angular2 applications.
 RxJS powered web notifications for Angular 2
 
 #### DevTools
-[Documentation](/devtools/README.md) | [Repository](https://www.github.com/ngrx/devtools)
+[Documentation](/devtools/README.md) | [Repository](https://www.github.com/ngrx/store-devtools)
 
 Developer Tools for @ngrx
+
+#### Log Monitor
+[Documentation](/logmonitor/README.md) | [Repository](https://www.github.com/ngrx/store-log-monitor)
+
+Port of redux-devtools-log-monitor for Angular 2 and @ngrx/store-devtools
 
 #### Router Store
 [Documentation](/routerstore/README.md) | [Repository](https://www.github.com/ngrx/router-store)
