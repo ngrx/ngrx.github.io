@@ -1,8 +1,14 @@
 #Resources
 @ngrx/store resources and commonly used tools.
 
-### Example Application
+### Example Applications
 * [Official ngrx example application](https://github.com/ngrx/example-app)
+
+* [Staffer](https://github.com/sapientglobalmarkets/staffer/tree/master/staffer-ng2-ngrxstore)
+![Staffer Screenshot](https://github.com/sapientglobalmarkets/staffer/blob/master/assets/screen-shot.png)
+Staffer is an application that implements a small use-case for a consulting firm trying to fill
+needs for its projects. It makes use of some idiomatic techniques with @ngrx/store as can be
+seen on this repo with @btroncone's articles and examples.
 
 ### Articles
 * [Comprehensive Introduction to @ngrx/store](https://gist.github.com/btroncone/a6e4347326749f938510)
