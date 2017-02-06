@@ -9,7 +9,7 @@
 RxJS powered state management for Angular2 apps, inspired by Redux
 
 #### Effects
-[Documenation](/effects/README.md) | [Repository](https://www.github.com/ngrx/effects)
+[Documentation](/effects/README.md) | [Repository](https://www.github.com/ngrx/effects)
 
 Side effect model for @ngrx/store
 
