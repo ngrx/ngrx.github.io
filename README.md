@@ -4,15 +4,15 @@
 
 @ngrx provides a set of clean, well-tested libraries for reactive programming in Angular applications.
 
-**[Official @ngrx example application](https://www.github.com/ngrx/example-app)**
+**[Official @ngrx example application](https://github.com/ngrx/platform/tree/master/example-app)**
 
 #### Store
-[Documentation](https://github.com/ngrx/store/blob/master/README.md) | [Repository](https://github.com/ngrx/store)
+[Documentation](https://github.com/ngrx/platform/blob/master/docs/store/README.md) | [Repository](https://github.com/ngrx/platform/tree/master/modules/store)
 
 RxJS powered state management for Angular2 apps, inspired by Redux
 
 #### Effects
-[Documentation](https://github.com/ngrx/effects/blob/master/README.md) | [Repository](https://github.com/ngrx/effects)
+[Documentation](https://github.com/ngrx/platform/blob/master/docs/effects/README.md) | [Repository](https://github.com/ngrx/platform/tree/master/modules/effects)
 
 Side effect model for @ngrx/store
 
@@ -27,7 +27,7 @@ RxJS powered IndexedDB for Angular applications.
 RxJS powered web notifications for Angular
 
 #### Store DevTools
-[Documentation](https://github.com/ngrx/store-devtools/blob/master/README.md) | [Repository](https://github.com/ngrx/store-devtools)
+[Documentation](https://github.com/ngrx/platform/blob/master/docs/store-devtools/README.md) | [Repository](https://github.com/ngrx/platform/tree/master/modules/store-devtools)
 
 Developer Tools for @ngrx
 
@@ -37,7 +37,7 @@ Developer Tools for @ngrx
 Port of redux-devtools-log-monitor for Angular and @ngrx/store-devtools
 
 #### Router Store
-[Documentation](https://github.com/ngrx/router-store/blob/master/README.md) | [Repository](https://github.com/ngrx/router-store)
+[Documentation](https://github.com/ngrx/platform/blob/master/docs/router-store/README.md) | [Repository](https://github.com/ngrx/platform/tree/master/modules/router-store)
 
 Bindings to connect @angular/router to @ngrx/store
 
