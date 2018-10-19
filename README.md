@@ -4,7 +4,7 @@
 
 @ngrx provides a set of clean, well-tested libraries for reactive programming in Angular applications.
 
-**[Official @ngrx example application](https://github.com/ngrx/platform/tree/master/example-app)**
+**[Official @ngrx example application](https://github.com/ngrx/platform/tree/master/projects/example-app)**
 
 #### Store
 [Documentation](https://github.com/ngrx/platform/blob/master/docs/store/README.md) | [Repository](https://github.com/ngrx/platform/tree/master/modules/store)
